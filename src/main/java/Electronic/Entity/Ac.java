@@ -10,7 +10,7 @@ public class Ac {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int id;
-	private String brand;
+	private String name;
 	private int price;
 	private String model;
 	private String color;
@@ -21,11 +21,11 @@ public class Ac {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getBrand() {
-		return brand;
+	public String getName() {
+		return name;
 	}
-	public void setBrand(String brand) {
-		this.brand = brand;
+	public void setName(String name) {
+		this.name=name;
 	}
 	public int getPrice() {
 		return price;
